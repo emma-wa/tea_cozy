@@ -55,6 +55,8 @@ h2, h4 {
   align-items: center;
 }
 
+/* first body container - mission */
+
 .mission {
   width: 1200px;
   height: 700px;
@@ -71,6 +73,28 @@ h2, h4 {
 
 .mission-text h2 {
   margin-bottom: 10px;
+}
+
+/* second body container - tea of the month */
+
+.tom {
+  width: 1000px;
+}
+
+.teapics {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic {
+  padding: 10px 15px;
+}
+
+.pic img {
+  width: 300px;
+  height: 200px;
 }
 
 /* footer */
